@@ -4,12 +4,15 @@ npm update
 
 VERSION=$(node --eval "console.log(require('./package.json').version);")
 
-# npm test || exit 1
+npm test || exit 1
 
 git checkout -b release/v-$VERSION
 
 jake build[,,true]
 jake docs
+
+# Add and commit the version
+git add .
 
 git commit -m "v$VERSION"
 
