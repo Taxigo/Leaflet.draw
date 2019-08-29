@@ -149,7 +149,7 @@ L.Edit.PolyVerticesEdit = L.Handler.extend({
 			}
 		}
 
-		poly.setStyle(poly.options.editing);
+		poly.setStyle(poly.options.editing || {});
 
 		if (this._poly._map) {
 

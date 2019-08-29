@@ -1,6 +1,6 @@
 {
   "name": "@skyraptor/leaflet-draw",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Vector drawing plugin for Leaflet",
   "main": "dist/leaflet.draw.js",
   "style": "dist/leaflet.draw.css",
