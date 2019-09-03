@@ -2,8 +2,8 @@
   "name": "@skyraptor/leaflet-draw",
   "version": "1.0.6",
   "description": "Vector drawing plugin for Leaflet",
-  "main": "dist/leaflet.draw.js",
-  "style": "dist/leaflet.draw.css",
+  "main": "src/Leaflet.draw.js",
+  "style": "src/leaflet.draw.css",
   "devDependencies": {
     "eslint": "^3.5.0 <3.6.0",
     "eslint-config-mourner": "^2.0.3",
